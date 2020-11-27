@@ -1,0 +1,18 @@
+<div id="resources" class="" style="background-color: #fff; text-align: left; padding-top:50px">
+   
+  <div class="container-fluid" >
+    <h1>Resources</h1>
+
+    <div >
+      {% for resource in site.data.resources %}
+      <div class="testimonial-item">
+        <blockquote>
+          <a href='{{resource.resource}}' target="_blank">{{resource.title}}</a>
+        </blockquote>
+        <!-- <hr/> -->
+      </div>
+      {% endfor %}
+    </div>
+
+  </div>
+</div>

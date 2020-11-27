@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<style type="text/css">
+    .hero  .banner a:hover {
+        background-color: #fff;
+    }
+
+    .icon-box{
+        padding: 0px;
+    }
+    .icon-box img {
+        max-height: 80px !important;
+        width: auto !important;    }
+
+    .helper {
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+
+    .v-align {
+        position: absolute;  
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+    }
+
+</style>
+
+{% include bootstrap_js_code.html %}
+{% capture banner_title %}{{ site.title }} {{ site.year }}{% endcapture %}
+{% capture banner %}{{ site.baseurl }}/img/{{ site.banner }}{% endcapture %}
+
+{% include banner.html %}
+
+<!-- Start About -->
+<div id="about" class="about" style="background-color: #F7F7F7">
+    <div class="container-fluid">
+      {{ content }}
+    </div>
+</div>
+
+{% include events.html %}
+{% include resources.html %}
+{% include contact.html %}

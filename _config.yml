@@ -1,0 +1,49 @@
+# Site settings
+title: COVID 19
+location: DSA Response
+safe: false
+description: "Information website."
+banner: dsa_banner.jpg
+banner_title: Data Science Africa and COVID 19
+baseurl: "/covid19"
+url: "http://www.datascienceafrica.org"
+logo_url: img/logo.png
+# logo_url: svg/min/logo.svg
+
+email: info@datascienceafrica.org
+
+# Contact form
+api_token: # Enter API token here
+
+# Footer
+copyright: © 2020 Data Science Africa Conference - All rights reserved
+gem: 'kramdown'
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    Gruntfile.js,
+    node_modules,
+    .sass-cache,
+    Gemfile,
+    Gemfile.lock,
+    .gitignore
+]
+
+twitter: https://twitter.com/dsa_org
+youtube: https://www.youtube.com/channel/UCkB0DCJZjJX6fdEZspidC9w/feed
+# TODO - make a proper DSA channel
+
+analytics:
+  google:
+    tracking_id: UA-80484960-1
+
+video:
+  height: 315
+  width: 560
+
+
+# Theme Settings
+# google_verification:
