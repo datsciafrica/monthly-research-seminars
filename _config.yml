@@ -1,10 +1,10 @@
 # Site settings
-title: COVID 19
+title: Monthly Research Seminars
 location: DSA Response
 safe: false
 description: "Information website."
 banner: dsa_banner.jpg
-banner_title: Data Science Africa and COVID 19
+banner_title: DSA Monthly Research Seminars
 baseurl: "/monthly-research-seminars"
 url: "http://www.datascienceafrica.org"
 logo_url: img/logo.png
