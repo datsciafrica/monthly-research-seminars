@@ -4,7 +4,15 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
+/*New css*/
+seminars_button{
+    color: #339966;
+    border: 1px solid #e6f2ff;
+    padding: 30px;
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 20px;
+  }
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
