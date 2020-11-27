@@ -5,7 +5,7 @@ safe: false
 description: "Information website."
 banner: dsa_banner.jpg
 banner_title: Data Science Africa and COVID 19
-baseurl: "/monthlyResearchSeminars"
+baseurl: "/monthly-research-seminars"
 url: "http://www.datascienceafrica.org"
 logo_url: img/logo.png
 # logo_url: svg/min/logo.svg
